@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column; /* Ensure elements stack vertically */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .first {
+    width: 400px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .second {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .second .digit {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px; /* Add some spacing between the digits */
+  }
+  
+  .second .digit.hidden {
+    display: none;
+  }
+  
+  
